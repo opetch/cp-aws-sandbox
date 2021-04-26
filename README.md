@@ -1,9 +1,8 @@
-#Confluent Platform AWS Sandbox
+# Confluent Platform AWS Sandbox
 
 A sandbox environment to run the [Ansible Playbooks for the Confluent Platform](https://docs.confluent.io/ansible/current).
 This repo provides resources built with Terraform, to which a Kafka cluster is deployed using the Ansible playbooks provided 
 by Confluent. This is orchestrated with shell inside a docker contaner.
-
 
 ## Docker
 Docker is used to ensure a consistent build environment, as well as to ensure running is easy one click, build. No install,
